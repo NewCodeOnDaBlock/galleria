@@ -1,0 +1,13 @@
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: #a07cfc;
+  position: relative;
+}

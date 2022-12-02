@@ -1,0 +1,64 @@
+.hugger {
+  display: flex;
+  overflow: scroll;
+}
+
+.card-main-container {
+  min-width: 350px;
+  height: 550px;
+  border: 3px solid black;
+  border-radius: 20px;
+  box-shadow: 10px 1px 1px black;
+  background: #58fcac;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+  margin: 15px;
+}
+
+h3 {
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.img-container {
+  width: 200px;
+  height: 230px;
+  border: 3px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+img {
+  width: 200px;
+  height: 300px;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 3px solid black;
+  background: #fffc1c;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #a07cfc;
+  color: white;
+}
+
+.description-div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: fit-content;
+  height: 150px;
+  overflow: scroll;
+}
